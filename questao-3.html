@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300;400;700&display=swap" rel="stylesheet">
+  <title>Currículo - Isadora Rodrigues</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Exo', sans-serif;
+      background-color: #f0f4f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      display: flex;
+      width: 70%;
+      height: 90vh;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .green-side {
+      background-color: #4b6043;
+      width: 35%;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: whitesmoke;
+    }
+    .green-square {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      position: relative;
+      z-index: 0;
+      top: 50px;
+    }
+    .profile-image {
+      width: 320px;
+      height: 320px;
+      border-radius: 50%;
+      position: relative;
+      z-index: 1;
+      margin-top: -120px;
+      border: 15px solid #203319;
+    }
+    .info {
+      margin-top: 50px;
+    }
+    h1 {
+      font-weight: 700;
+      margin-bottom: 10px;
+      font-size: 24px;
+    }
+    h2 {
+      font-weight: 400;
+      margin-bottom: 5px;
+      font-size: 18px;
+    }
+    p {
+      font-weight: 300;
+      margin-bottom: 10px;
+    }
+    .contact-info {
+      margin-top: 20px;
+    }
+    .contact-info h2, .contact-info p {
+      font-size: 16px;
+    }
+    .white-side {
+      background-color: #fff;
+      width: 65%;
+      padding: 30px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .section h1 {
+      color: #4b6043;
+      border-bottom: 2px solid #4b6043;
+      padding-bottom: 10px;
+    }
+
+    a {
+      color: whitesmoke;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Lado Verde -->
+    <div class="green-side">
+      <div class="green-square"></div>
+      <img src="img/profile.png" alt="Profile" class="profile-image">
+      
+      <div class="info">
+        <h1>Isadora Rodrigues</h1>
+        <h2>Desenvolvedora Full-Stack</h2>
+        <p>Belo Horizonte, MG</p>
+      </div>
+
+      <div class="contact-info">
+        <h2>Contato</h2>
+        <p>Whatsapp: <a href="https://wa.me/5531985905114"> (31) 98590-5114</a></p>
+        <p>Email: <a href="mailto:isadoradorarodrigues@gmail.com">isadoradorarodrigues@gmail.com</a></p>
+        <p><a href="https://www.linkedin.com/in/isadora-rodrigues-904b36164/">Linkedin</a></p>
+      </div>
+    </div>
+
+    <!-- Lado Branco -->
+    <div class="white-side">
+      <!-- Seção Experiência -->
+      <div class="section">
+        <h1>Experiência</h1>
+        <h2>Estagiária de Desenvolvimento</h2>
+        <p>Impulso - 2023 até o presente</p>
+        <p>Atuação no desenvolvimento de soluções em Ruby on Rails para portais internos, focando em logística e administração.</p>
+
+        <h2>Jovem Aprendiz - RH e Administrativo</h2>
+        <p>Marelli - 2022 a 2023</p>
+        <p>Auxílio em recrutamento, seleção e administração de treinamentos da planta industrial.</p>
+      </div>
+
+      <!-- Seção Educação -->
+      <div class="section">
+        <h1>Educação</h1>
+        <h2>Bacharelado em Ciência da Computação</h2>
+        <p>Universidade UNA Contagem - 2023 a 2026</p>
+      </div>
+
+      <!-- Seção Habilidades -->
+      <div class="section">
+        <h1>Habilidades</h1>
+        <p>Ruby on Rails, HTML, CSS, JavaScript, PostgreSQL</p>
+        <p>Git, APIs REST</p>
+      </div>
+      <!-- Seção Hobbies -->
+      <div class="section">
+        <h1>Hobbies</h1>
+        <p>Musculação, corrida de rua, leitura de livros, colagens e journaling</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
