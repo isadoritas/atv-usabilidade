@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Table Example: Spanning Rows and Columns</h1>
+  <p>A more complex sample table</p>
+  <table>
+    <tr>
+      <th><img src="img/camelo.png" alt="Camel"></th>
+      <th>
+        <table>
+          <thead>
+            <tr><td colspan="4" align="center">Camelid comparison <br> Aproximate as of 6/2011</td></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th># of humps</th>
+              <th>Indigenous region</th>
+              <th>Spits?</th>
+              <th>Produces wool?</th>
+            </tr>
+            <tr>
+              <td rowspan="2">2</td> <!-- Camels -->
+              <td rowspan="2">Asia</td>
+              <td rowspan="2">Yes</td>
+              <td rowspan="2">No</td>
+            </tr>
+            <tr></tr> <!-- Remover esta linha -->
+            <tr>
+              <td rowspan="2">0</td> <!-- Llamas -->
+              <td rowspan="2">South America</td>
+              <td rowspan="2">Yes</td>
+              <td rowspan="2">Yes</td>
+            </tr>
+            <tr></tr> <!-- Remover esta linha -->
+          </tbody>
+        </table>
+      </th>
+    </tr>
+    <tr>
+      <td>Camels (bactrian)</td>
+    </tr>
+    <tr>
+      <td>Llamas</td>
+    </tr>
+  </table>
+</body>
+</html>
