@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .header {
+      background-color: rgb(216, 150, 6);
+    }
+
+    .checkboxes {
+      margin-left: 140px;
+    }
+
+    input {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h3 class="header">SISTEMA DE GESTÃO ACADÊMICA</h3>
+  <h3 style="margin-top: -10px;"><b>MANUTENÇÃO DE USUAŔIOS DOS SISTEMA INTERNO</b></h3><br>
+  <form>
+    <label for="login" style="margin-right: 100px;">Login</label>
+    <input type="text" class="input" id="login" name="login"><br>
+    <label for="senha" style="margin-right: 100px;">Senha</label>
+    <input type="text" class="input" id="senha" name="senha"><br>
+    <label for="status" style="margin-right: 100px;">Status</label>
+    <select name="status" id="status">
+      <option value="Inativo">Inativo</option>
+    </select><br>
+
+    <label for="tipo" style="margin-right: 100px;">Tipo</label>
+    <input type="radio" class="input" id="tecnico" name="tecnico">
+    <label for="tecnico">Técnico</label>
+    <input type="radio" class="input" id="professor" name="professor">
+    <label for="professor">Professor</label>
+    <input type="radio" class="input" id="aluno" name="aluno">
+    <label for="aluno">Aluno</label><br>
+
+    <label for="data_criacao" style="margin-right: 55px;">Data Criação</label>
+    <input type="text" class="input" id="data_criacao" name="data_criacao"><br>
+
+    <label for="perfil" style="margin-right: 100px;">Perfil</label>
+    <input type="radio" class="input" id="convidado" name="convidado">
+    <label for="convidado">Convidado</label>
+    <input type="radio" class="input" id="administrador" name="administrador">
+    <label for="administrador">Administrador</label><br>
+
+    <label for="observacoes" style="margin-right: 55px;">Observações</label>
+    <textarea id="observacoes" name="observacoes" style="height: 100px; width: 300px;"></textarea><br>
+
+    <div class="checkboxes">
+      <input type="checkbox" class="input" id="compras" name="compras">
+      <label for="compras">Compras</label>
+      <input type="checkbox" class="input" id="biblioteca" name="biblioteca">
+      <label for="biblioteca">Biblioteca</label>
+      <input type="checkbox" class="input" id="academico" name="academico">
+      <label for="academico">Acadêmico</label><br>
+    </div>
+    <label for="comentario">Módulos</label>
+    <div class="checkboxes">
+      <input type="checkbox" class="input" id="documentacao" name="documentacao">
+      <label for="documentacao">Documentação</label>
+      <input type="checkbox" class="input" id="recursos_humanos" name="recursos_humanos">
+      <label for="recursos_humanos">Recursos Humanos</label><br>
+    </div>
+    <br>
+    <input type="submit" value="Cadastrar">
+    <input type="submit" value="Excluir">    
+  </form>
+
+
+</body>
+</html>
