@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Pedra, Papel, Tesooou-ra</h1>
+  <div id="jogadorScore">Jogador:</div> 
+  <br>
+  <div id="computadorScore">Computador:</div>
+  <div id="escolhas">
+    <img src="img/pedra.jpg" onclick="jogar('pedra')">
+    <img src="img/papel.jpg" onclick="jogar('papel')">
+    <img src="img/tesoura.jpg" onclick="jogar('tesoura')">
+  </div>
+
+  <div id="resultado"></div>
+  <div class="scoreDisplay">Pontos Jogador:
+    <span id="jogadorScoreDisplay">0</span>
+  </div>
+  <div class="scoreDisplay">Pontos Computador:
+    <span id="computadorScoreDisplay">0</span>
+  </div>
+
+
+  <script src="game.js"></script>
+</body>
+</html>
