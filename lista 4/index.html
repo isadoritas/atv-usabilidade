@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prova de CSS</title>
+  <link rel="stylesheet" href="index.css">
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Prova de CSS</h1>
+  <a href="respostas.html" target="_blank">
+    <iframe src="https://giphy.com/embed/lJNoBCvQYp7nq" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+  </a>  
+  <div id="questoes">
+    <form>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name"><br><br>
+
+      <!-- Questão 1 -->
+      <label for="">1. Qual é a função do z-index no CSS?</label><br>
+      <input type="checkbox" id="zindex_a" name="zindex_a">
+      <label for="zindex_a">A) Define a opacidade de um elemento.</label><br>
+      
+      <input type="checkbox" id="zindex_b" name="zindex_b">
+      <label for="zindex_b">B) Controla a ordem de empilhamento de elementos posicionados.</label><br>
+      
+      <input type="checkbox" id="zindex_c" name="zindex_c">
+      <label for="zindex_c">C) Ajusta o espaçamento entre caracteres de texto.</label><br>
+      
+      <input type="checkbox" id="zindex_d" name="zindex_d">
+      <label for="zindex_d">D) Define o tamanho da fonte de um elemento.</label><br><br>
+
+      <!-- Questão 2 -->
+      <label for="">2. Qual das seguintes propriedades define o espaçamento interno de um elemento?</label><br>
+      <input type="checkbox" id="padding_a" name="padding_a">
+      <label for="padding_a">A) margin</label><br>
+      
+      <input type="checkbox" id="padding_b" name="padding_b">
+      <label for="padding_b">B) padding</label><br>
+      
+      <input type="checkbox" id="padding_c" name="padding_c">
+      <label for="padding_c">C) border</label><br>
+      
+      <input type="checkbox" id="padding_d" name="padding_d">
+      <label for="padding_d">D) outline</label><br><br>
+
+      <!-- Questão 3 -->
+      <label for="">3. Qual das seguintes pseudo-classes aplica um estilo a um link que já foi visitado?</label><br>
+      <input type="checkbox" id="visited_a" name="visited_a">
+      <label for="visited_a">A) :hover</label><br>
+      
+      <input type="checkbox" id="visited_b" name="visited_b">
+      <label for="visited_b">B) :active</label><br>
+      
+      <input type="checkbox" id="visited_c" name="visited_c">
+      <label for="visited_c">C) :visited</label><br>
+      
+      <input type="checkbox" id="visited_d" name="visited_d">
+      <label for="visited_d">D) :focus</label><br><br>
+
+      <!-- Questão 4 -->
+      <label for="">4. Como você define que um elemento deve ocupar toda a largura disponível na tela?</label><br>
+      <input type="checkbox" id="width_a" name="width_a">
+      <label for="width_a">A) width: 100px;</label><br>
+      
+      <input type="checkbox" id="width_b" name="width_b">
+      <label for="width_b">B) width: 100%;</label><br>
+      
+      <input type="checkbox" id="width_c" name="width_c">
+      <label for="width_c">C) width: auto;</label><br>
+      
+      <input type="checkbox" id="width_d" name="width_d">
+      <label for="width_d">D) width: inherit;</label><br><br>
+
+      <!-- Questão 5 -->
+      <label for="">5. Qual propriedade CSS é usada para modificar a aparência da borda de um elemento?</label><br>
+      <input type="checkbox" id="border_a" name="border_a">
+      <label for="border_a">A) border-style</label><br>
+      
+      <input type="checkbox" id="border_b" name="border_b">
+      <label for="border_b">B) border-opacity</label><br>
+      
+      <input type="checkbox" id="border_c" name="border_c">
+      <label for="border_c">C) outline-style</label><br>
+      
+      <input type="checkbox" id="border_d" name="border_d">
+      <label for="border_d">D) box-shadow</label><br><br>
+
+      <!-- Questão 6 -->
+      <label for="">6. O que o valor flex-grow: 1; faz em um contêiner flexível (flexbox)?</label><br>
+      <input type="checkbox" id="flexgrow_a" name="flexgrow_a">
+      <label for="flexgrow_a">A) Define o tamanho mínimo de um item flexível.</label><br>
+      
+      <input type="checkbox" id="flexgrow_b" name="flexgrow_b">
+      <label for="flexgrow_b">B) Permite que o item flexível cresça proporcionalmente ao espaço disponível.</label><br>
+      
+      <input type="checkbox" id="flexgrow_c" name="flexgrow_c">
+      <label for="flexgrow_c">C) Ajusta a altura de um item flexível.</label><br>
+      
+      <input type="checkbox" id="flexgrow_d" name="flexgrow_d">
+      <label for="flexgrow_d">D) Impede o item de encolher.</label><br><br>
+
+      <!-- Questão 7 -->
+      <label for="">7. Qual é o valor padrão da propriedade position no CSS?</label><br>
+      <input type="checkbox" id="position_a" name="position_a">
+      <label for="position_a">A) absolute</label><br>
+      
+      <input type="checkbox" id="position_b" name="position_b">
+      <label for="position_b">B) fixed</label><br>
+      
+      <input type="checkbox" id="position_c" name="position_c">
+      <label for="position_c">C) relative</label><br>
+      
+      <input type="checkbox" id="position_d" name="position_d">
+      <label for="position_d">D) static</label><br><br>
+
+      <h1>Respostas da Prova de CSS</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nº da Questão</th>
+          <th>Resposta Correta</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>B) Controla a ordem de empilhamento de elementos posicionados.</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>B) `padding`</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>C) `:visited`</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>B) `width: 100%`</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>A) `border-style`</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>B) Permite que o item flexível cresça proporcionalmente ao espaço disponível.</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>D) `static`</td>
+        </tr>
+      </tbody>
+    </table>
+
+    </form>
+  </div>
+</body>
+</html>
